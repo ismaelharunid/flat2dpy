@@ -72,6 +72,7 @@ Not yet implemented but it will use promises to reduce ctype call overhead.  thi
     print f2da[0,:]                 # (1,2,(0,1))
     print f2da[:,0]                 # (5,1,(0,2,4,6,8)
     print f2da[:,:]                 # (5,2,(0,1,2,3,4,5,6,7,8,9))
+    f2da[None,:] = (10,12)          # essentailly the same as f2da += (10,12)
 
 # Installation
 
