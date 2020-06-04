@@ -52,7 +52,7 @@ from flat2d import *
 
 # Installation
 
-## Installation from cli using git
+## Installing locally from cli using git
 
     git clone https://github.com/ismaelharunid/flat2dpy.git
     cp -r flat2dpy/flat2d /your/project/directory
