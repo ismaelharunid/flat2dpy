@@ -32,5 +32,10 @@ A flat2d array (array.array) class.
 
 ## Flat2dCType
 
-Not yet implemented and although it will offer a much wider range of
+Not yet implemented and although it will offer a much wider range of item types, it will be slow.  So if you have performance requirements then stear clear of this.  We do intend to create another subclass which will aso impliment a pipeline, so that may be more to your interest as it will remove most of the ctype calls bottleneck.
+
+## Flat2dCTypePipeline
+
+Not yet implemented but it will use promises to reduce ctype call overhead.  this is done by treating all operations as promises, such that results cannot be expected by any calls but dependecies are built so the final products will still be correct.  
+
 
