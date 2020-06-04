@@ -1,3 +1,3 @@
 # py-flat2d
 
-A flat 2d array class with math.
+A collection of flat 2d classes with math and helpers.
