@@ -19,7 +19,7 @@ Why the name flat2d?  Because arrays are actually flat but used as 2d arrays.  T
 
 A major different with most other similar modules where single indexes or slices are treated a row index with all columns of that row.  Hence one must becareful when using flat2d as a drop in replacement.  To maintain numpy or scipy compatiablility you can use None for the column range, fe. f2da[0,None] will reference as (0, slice(Noe, None, None)
 
-## flat2d main module
+# flat2d main module
 
 The main module which contains available flat2d classes and submodules
 
