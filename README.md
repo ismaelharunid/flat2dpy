@@ -26,9 +26,17 @@ This abstract class is a math support mixin class to convert oprator methods int
 
 A proxy class which inherits from Flat2dSequence and acts as a proxy wrapper for any Flat2dSequence subclass instance.
 
+## Flat2dTuple
+
+A flat2d readonly tuple class.
+
+## Flat2dList
+
+A flat2d mutable list class.
+
 ## Flat2dArray
 
-A flat2d array (array.array) class.
+A flat2d mutable array (array.array) class.
 
 ## Flat2dCType
 
