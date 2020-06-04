@@ -10,6 +10,10 @@ The main module which contains available flat2d classes and submodules
 
 These are flat2d abstract classes.  Flat2dSequence is read only, Flat2dWritableSequence is writable but may not change shape, and Flat2dMutableSequence may change shape.  You can buid your own subclass from these and the flat2dmixins.  Most of the existing flat2d class only support a single native item type, but it is posible to build your own using the <object> type as the item type.  Any additonal restraints must be built in by your own implemented methods, however there are several hooks available to make this easy.  If you plan to change or implement additonal features into your custom flat2d class you should read looks at the mixins and hooks.
 
+## Flat2dView
+
+A proxy class which inherits from Flat2dSequence and acts as a proxy wrapper for any Flat2dSequence subclass instance.
+
 ## Flat2dArray
 
 a flat2d array (array.array) class.
