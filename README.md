@@ -46,4 +46,14 @@ Not yet implemented and although it will offer a much wider range of item types,
 
 Not yet implemented but it will use promises to reduce ctype call overhead.  this is done by treating all operations as promises, such that results cannot be expected by any calls but dependecies are built so the final products will still be correct.  
 
+# Usage
+
+from flat2d import *
+
+# Installation
+
+## Installation from cli
+
+git clone https://github.com/ismaelharunid/flat2dpy.git
+cp -r flat2dpy/flat2d /your/project/directory
 
