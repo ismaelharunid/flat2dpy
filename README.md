@@ -1,11 +1,11 @@
-# Current News and Status
-
-Currently we only have documenation up.  but you can expect the actual module to be up soon, in maybe a week.  It's already at alpha status but requires some perfing, testing and more complete inline documentation.  It will be added to this repository once it's considered at a near beta status.
-
 # License and copyright
 
 flat2dpy uses the BSD 2-Clause License
 Copyright (c) 2019, ismaelharunid.  All rights reserved.
+
+# Current News and Status
+
+Currently we only have documenation up.  but you can expect the actual module to be up soon, in maybe a week.  It's already at alpha status but requires some perfing, testing and more complete inline documentation.  It will be added to this repository once it's considered at a near beta status.
 
 # flat2dpy
 
