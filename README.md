@@ -63,7 +63,7 @@ Not yet implemented but it will use promises to reduce ctype call overhead.  thi
     print f2da + 10                 # (10,11,12,13,14,15,16,17,18,19)
     print f2da + (10,20)            # (10,21,12,23,14,25,16,27,18,29)
     print f2da + (5,(10,)*10)       # (10,11,12,13,14,15,16,17,18,19)
-    print f2da + (None,2,(10,)*10)# # (10,11,12,13,14,15,16,17,18,19)
+    print f2da + (None,2,(10,)*10)  # (10,11,12,13,14,15,16,17,18,19)
     print f2da + (5,2,(10,)*10)     # (10,11,12,13,14,15,16,17,18,19)
     print f2da + f2da               # (0,2,4,6,8,10,12,14,16,18)
     print f2da[0]                   # 0
