@@ -1,3 +1,5 @@
+Currently we only have documenation up.  but you can expect the actual module to be up soon, in maybe a week.  It's already at alpha status but requires some perfing, testing and more complete inline documentation.  It will be added to this repository once it's considered at a near beta status.
+
 # flat2dpy
 
 A collection of flat 2d classes with math and helpers.  You can think of the classes provided for this module as sumpy or scupy ndarray replacements except they are for use with 2d sequneces and do not support single or more then 2 dimentsions, so if you intention is other then 2 dimensions you would probably be better off with numpy or scipy.  Note that 2 dimensions referse to rows and columns with an assumed depth of 1.  3d and 4d coordinates are both supported as they have 2 dimensions.
